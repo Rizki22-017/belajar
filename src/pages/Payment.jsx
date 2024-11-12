@@ -24,6 +24,16 @@ export const Payment = () => {
                   style={{ borderRadius: "10px", fontWeight: "500" }}
                 />
               </div>
+
+              <div className="row mb-4">
+                {/* Kolom Nama Data */}
+                <div className="col-12 col-md-4 mb-3 mb-md-0">
+                  <h6>Your Details</h6>
+                  <p>Name</p>
+                  <p>Email</p>
+                  <p>Mobile Number</p>
+                  <p>Company</p>
+                </div>
   
               <div className="row mb-4">
                 {/* Kolom Nama Data */}
