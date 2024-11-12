@@ -91,6 +91,22 @@ export const Payment = () => {
                 Close
               </button>
             </div>
+            <div className="modal-footer border-0 d-flex justify-content-center flex-wrap">
+              <button
+                type="button"
+                className="btn btn-primary px-5 py-2 mb-2 mb-md-0 mx-2"
+                style={{ borderRadius: "10px" }}
+              >
+                Pay Now
+              </button>
+              <button
+                type="button"
+                className="btn btn-secondary mx-2"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
           </div>
         </div>
       </>
